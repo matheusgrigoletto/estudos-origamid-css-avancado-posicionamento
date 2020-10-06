@@ -1,0 +1,67 @@
+/* @import url("https://fonts.googleapis.com/css2?family=David+Libre:wght@400;700&display=swap"); */
+
+/* Reset */
+
+html {
+  font-size: 16px;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /* font-family: "David Libre", Georgia, serif; */
+  font-family: Georgia, serif;
+  color: #252525;
+}
+
+/* Menu */
+
+.menu {
+  background: #252525;
+  padding: 20px 0;
+}
+
+.menu-container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.menu-container::after,
+.menu-container::before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a.menu-logo {
+  display: block;
+  float: left;
+  margin-left: 10px;
+}
+
+.menu-nav {
+  float: right;
+  margin-right: 10px;
+}
+
+.menu-nav li {
+  display: inline-block;
+}
+
+.menu-nav li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.125em;
+}
